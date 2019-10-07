@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.highBlock {
+    margin: auto;
+    background: #919191;
+    border-radius: 5px;
+    text-align: left;
+    width: 1425px;
+    height: 140px;
+    box-shadow: 14px 14px 12px 3px rgba(0,0,0,0.91);
+
+}
+
+.leftBlock {
+
+    background: #919191;
+    border-radius: 5px;
+    text-align: center;
+    width: 140px;
+    height: 425px;
+    margin-right: 30px;
+    box-shadow: 14px 14px 12px 3px rgba(0,0,0,0.91);
+
+}
+.centerBlock {
+    background: #919191;
+    border-radius: 5px;
+    text-align: center;
+    width: 1020px;
+    height: 580px;
+    box-shadow: 14px 14px 12px 3px rgba(0,0,0,0.91);
+    position: relative;
+}
+
+.rightBlock {
+    margin-left: 30px;
+    background: #919191;
+    border-radius: 5px;
+    text-align: center;
+    width: 140px;
+    height: 425px;
+    box-shadow: 14px 14px 12px 3px rgba(0,0,0,0.91);
+}
+
+#entrez {
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.greenBlock {
+    background: #a9fb97;
+    width: 515px;
+    height: 164px;
+   /*margin-top: -75px;*/
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    border-radius: 5px;
+    box-shadow: 14px 14px 12px 3px rgba(0,0,0,0.91);
+
+}
+
+.dayOfThe42 {
+    width: 455px;
+    height: 110px;
+    margin: 15px 15px 15px 15px;
+}
+
+.bottom {
+    width: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rightBatPag {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 25px 10px 25px;
+}
+
+
+
+.loupe {
+    margin-left: 40%;
+    position: relative;
+    top: 20px;
+    margin-right: 35px;
+}
+
+.close {
+    width: 25px;
+    height: 20px;
+    margin-top: 70px;
+}
+
+.reload {
+    width: 25px;
+    height: 20px;
+}

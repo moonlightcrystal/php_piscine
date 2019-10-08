@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: Impact, fantasy;
+    font-size: large;
+    margin-top: -10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: whitesmoke;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+li a {
+    color: whitesmoke;
+}
+
+li:hover,
+li:focus-within {
+    background: #FF6C9B;
+    cursor: pointer;
+}
+
+li:focus-within a {
+    outline: none;
+}
+
+main {
+    position: relative;
+    top: 250px;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 5;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+.right1 {
+    font-family: Impact, fantasy;
+    color: greenyellow;
+    font-size: x-large;
+
+    padding: 20px 56px;
+    background: black;
+    text-align: right;
+    margin-top: 10px
+}
+
+.left1 {
+    font-family: Impact, fantasy;
+    color: greenyellow;
+    font-size: x-large;
+
+    padding: 20px 56px;
+    background: black;
+    text-align: left;
+    margin-top: 10px
+}
+
+.left2 {
+    font-family: Impact, fantasy;
+    color: greenyellow;
+    font-size: x-large;
+
+    padding: 20px 56px;
+    background: black;
+    text-align: left;
+}
+
+.first {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 4.85rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.second {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 4.85rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.third {
+    visibility: hidden;
+    opacity: 0;
+    min-width: 4.85rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}

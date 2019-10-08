@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb2f3335-5194-49f4-8558-d0ab61ce94d3" name="Default Changelist" comment="" />
+    <list default="true" id="fb2f3335-5194-49f4-8558-d0ab61ce94d3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/mendeleiev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex03/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex04/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex04/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex00/ex00.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/basics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex01/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/mendeleiev.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/doft.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/doft.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex02/ex02.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/doft.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,15 +32,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RrwyagiLJ64uUKQFrNujvan7nv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ex03" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ex03" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ex01" />
       <recent name="$PROJECT_DIR$/ex02" />
@@ -59,10 +78,25 @@
       <option name="presentableId" value="Default" />
       <updated>1570438777699</updated>
       <workItem from="1570438778786" duration="32530000" />
+      <workItem from="1570524560167" duration="15584000" />
+      <workItem from="1570550948685" duration="4490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

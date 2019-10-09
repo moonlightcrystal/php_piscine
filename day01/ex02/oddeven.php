@@ -12,10 +12,10 @@
         }
         if (is_numeric($get)) {
             if ($get == 0) {
-                echo "The number" . $get . "is even\n";
+                echo "The number " . $get . " is even\n";
             } elseif ($get % 2 != 0)
-                echo "The number" . $get . "is odd\n";
+                echo "The number " . $get . " is odd\n";
             elseif ($get % 2 == 0)
-                echo "The number" . $get . "is even\n";
+                echo "The number " . $get . " is even\n";
         }
 }

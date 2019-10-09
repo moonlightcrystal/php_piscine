@@ -1,10 +1,25 @@
 #!/usr/bin/php
 <?php
-$i = 1;
+    $i = 1;
+    $result = array();
     while($argc > $i) {
-    $arr = preg_split("/[\s,]+/", $argv[$i]);
-    $i++;
-    $arr2 += $arr;
-}
-sort($arr2);
-    print_r($arr2);
+        $result = array_merge($result, preg_split("/[\s,]+/", trim($argv[$i])));
+        $i++;
+    }
+    sort($result);
+    $count = count($result);
+    $j = 0;
+    while($count > 0)
+    {
+        if($result[$j]) {
+            echo $result[$j] . "\n";
+            $j++;
+            $count--;
+        }
+        else
+            exit;
+    }
+
+
+
+

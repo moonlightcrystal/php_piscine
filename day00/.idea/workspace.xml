@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb2f3335-5194-49f4-8558-d0ab61ce94d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex03/mendeleiev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex03/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex04/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ex04/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex00/hw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex01/mlx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex02/oddeven.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex03/ft_split.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex04/aff_param.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex05/epur_str.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day01/ex06/ssap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex00/ex00.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex00/basics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex01/ex01.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex01/mendeleiev.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex02/doft.css" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/doft.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex02/ex02.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex02/doft.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,8 @@
       <updated>1570438777699</updated>
       <workItem from="1570438778786" duration="32530000" />
       <workItem from="1570524560167" duration="15584000" />
-      <workItem from="1570550948685" duration="4490000" />
+      <workItem from="1570550948685" duration="4706000" />
+      <workItem from="1570570027427" duration="667000" />
     </task>
     <servers />
   </component>

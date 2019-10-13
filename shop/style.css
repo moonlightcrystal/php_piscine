@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bowlby+One+SC&display=swap');
+* {
+    box-sizing: border-box;
+    /*padding: 0;*/
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    background: #FFBE40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.header img {
+    width: 3em;
+    height: 3em;
+}
+
+.label img {
+    height: 5em;
+    width: 5em;
+}
+
+.categoriesHeader div a {
+    font-family: 'Bowlby One SC', cursive;
+}
+.categoriesHeader {
+    background: #8370D8;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.categoriesHeader div a {
+    text-decoration: none;
+    color: black;
+}
+
+.categoriesHeader div {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.icons > * {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon {
+    width: 50%;
+}
+
+.iconsRight {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+
+input[name=countLanding] {
+    margin-bottom: 10px;
+    height: 15px;
+    width: 30px;
+    position: absolute;
+    background: #FFBE40;
+    border: black solid 1px;
+    margin-left: 793px;
+}
+
+.basic {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.main {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #5cd1b7;
+}
+
+.footer {
+    width: 100%;
+    background: #FA908D;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.productBasket {
+    background: #FA908D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+}
+
+.categorL img {
+    width: 100%;
+
+}
+
+.categorL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+}
+
+input[name=buyProductLa] {
+    position: relative;
+    width: 100%;
+    background: #5cd1b7;
+    border: black solid 1px;
+
+}
+
+
+
+
+.nameCtegor {
+    padding: 0.5em;
+    text-align: center;
+    background: #8370D8;
+    border: #0d0d0d 2px solid;
+}
+
+.nameCtegor2 {
+    padding: 0.5em;
+    text-align: center;
+    background: #FA908D;
+    border: #0d0d0d 2px solid;
+}
+
+
+.categorL input{
+    position: relative;
+    width: 100%;
+}
+
+.priceLP {
+    position: relativee;
+    width: 100%;
+    background: black;
+    color: #FA908D;
+    text-align: center;
+}
+
+.summ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    background: #5cd1b7;
+    height: 500px;
+}
+
+.productDescription {
+    display: flex;
+    flex-direction: row;
+    background: #5cd1b7;
+    width: 100%;
+}
+
+.productDescription div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+div input[name=summAbouProduct],
+div input[name=buyProduct] {
+    position: relative;
+    margin-top: 10px;
+    top: 400px;
+    height: 50px;
+    width: 100px;
+    background: #5cd1b7;
+    border: black solid 1px;
+
+}
+
+.categoriesAbout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #5cd1b7;
+    height: 600px;
+}
+
+.categoriesAbout div img {
+    width: 100%;
+    height: 300px;
+    border: black solid 1px;
+}
+
+input[name=buyButCat]{
+    width: 80%;
+    height: 30px;
+    top: -10px;
+    background: #FA908D;
+    border: black solid 1px;
+
+}
+
+input[name=bucket] {
+    width: 19.5%;
+    height: 30px;
+    background: #FA908D;
+    border: black solid 1px;
+}
+
+input[name=countButCat]{
+    width: 19.5%;
+    height: 30px;
+    top: -10px;
+    margin-left: 0.09%;
+    background: #FA908D;
+    border: black solid 1px;
+}
+
+
+.categoriesAbout div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.categoriesAbout div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+

@@ -7,8 +7,8 @@ class Color {
     public $blue = 0;
     
     public static function doc(){
-        if(file_exists("Color.doc.txt")) {
-            if(($instr = file_get_contents("Color.doc.txt")))
+        if(file_exists('Color.doc.txt')) {
+            if(($instr = file_get_contents('Color.doc.txt')))
                 return($instr);
         }
     }

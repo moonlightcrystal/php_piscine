@@ -1,0 +1,15 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles verteces.
+
+An instance is contructed from the three x,y,z values for Example:
+new Vertex( array( 'x' => 7.0, 'y' => 8.8, 'z' => 3.1 ) ); 
+
+In addition it can be add this constructor with 'w' and Color.
+'w' is homegenous paramater, default value - 1.0;
+'Color' for the instance of Color,  defult value white (0xFFFFFF);
+
+Attributes are private, you have to use getter and setter.
+setters are (setX(), setY(), setZ(), setW(), setColor()),
+and getters are (getX(), getY(), getZ(), getW(), getColor())
+---------------------------------------------------------------------- Vertex ->

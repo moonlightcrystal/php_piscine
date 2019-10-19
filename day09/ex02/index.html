@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>To do list</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Acme|Permanent+Marker&display=swap');
+        body {
+            background:pink;
+            top: 30%;
+            left: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+        }
+
+        .dolist {
+            margin-top: 30%;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 30px;
+            height: 40px;
+        }
+
+        .butRemove {
+            height: 5px;
+            width: 5px;
+            background: greenyellow;
+            border-radius: 50%;
+            margin-right: 15px;
+            border: solid 0px;
+        }
+
+        .list {
+                padding: 5px;
+                background: burlywood;
+                font-family: 'Acme', sans-serif;
+                margin-top: 5px;
+
+        }
+
+        #onelist {
+            padding: 5px;
+            background: palevioletred;
+            font-family: 'Acme', sans-serif;
+            width: 150px;
+            height: 50px;
+            border: solid 2px;
+            margin-top: 10px;
+            font-size: 30px;
+        }
+
+        input[type=button] {
+            background: burlywood;
+            border: solid 0px;
+        }
+
+    </style>
+
+    <script type="text/javascript" src="todo.js"></script>
+    <body onload="return getcook()" onunload="return save()">
+        <div class="dolist">To do list</div>
+            <div id="ft_list">
+                <input id="onelist" type="button" value="NEW" onclick="add_list()">
+            </div>
+    </body>
+
+</html>

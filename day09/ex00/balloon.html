@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Balloon</title>
+    </head>
+        <style>
+            #balloon {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background: red;
+            }
+
+            body {
+            background-image: url("https://www.tokkoro.com/picsup/2995979-retro-style-clouds-vaporwave-violet___mixed-wallpapers.jpg");
+            background-size: 600px;
+            top: 50%;
+            left: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+        }
+        </style>
+        <script>
+            var col = ['#ff0000','#00ff00','#0000ff'];
+            var color = 0;
+            var size = 200;
+
+            function increaseBool() {
+                var balloon = document.getElementById("balloon");
+                if(size < 420)
+                    size += 10;
+                else
+                    size = 200;
+                balloon.style.height = size + 'px';
+                balloon.style.width = size + 'px';
+                if(color < 2)
+                    color++;
+                else
+                    color = 0;
+                balloon.style.background = col[color];
+            }
+            function reductionBool() {
+
+                var balloon = document.getElementById("balloon");
+
+                size -= 5;
+                if (size < 200) {
+                    size = 200;
+                }
+                color--;
+                if (color < 0) {
+                    color = 2;
+                }
+                balloon.style.height = size + 'px';
+                balloon.style.width = size + 'px';
+                balloon.style.background = col[color];
+                    
+            }
+        </script>
+            <body>
+                <div id = "balloon" onclick="increaseBool()" onmouseleave="reductionBool()"></div>
+            </body>
+</html>

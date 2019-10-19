@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculator</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+
+        .calculator {
+            display: flex;
+            flex-direction: row;
+        }
+        body {
+            background: greenyellow;
+            top: 50%;
+            left: 50%;
+            position: fixed;
+            transform: translate(-50%, -50%);
+        }
+
+        input, select {
+            position: relative;
+            background: #5cd1b7;
+            border: black solid 2px;
+            margin-right: 1px;
+            padding: 20px;
+            font-family: 'Acme', sans-serif;
+            font-size: 20px;
+        }
+
+
+    </style>
+    <script>
+
+        setInterval(function(){alert("Please, use me...");}, 30000);
+
+        function solution() {
+
+        var operation = document.getElementById("operation").value;
+        var result;
+        var getn1 = document.getElementById("number1").value;
+        var getn2 = document.getElementById("number2").value;
+        n1 = parseInt(getn1);
+        n2 = parseInt(getn2);
+
+
+        if( n1 < 0 || n2 < 0 || getn1 != n1 || getn2 != n2)
+            result = "Error :(";
+        else if((operation == '%' || operation == '/') && n2 == 0)
+            result = "It’s over 9000!";
+        else
+            switch(operation) {
+                case('+') :
+                    result = n1 + n2;
+                    break;
+                case('-') :
+                    result = n1 - n2;
+                    break;
+                case('*') :
+                    result = n1 * n2;
+                    break;
+                case('/') :
+                    result = n1 / n2;
+                    break;
+                case('%') :
+                    result = n1 % n2;
+                    break;
+            }
+        console.log(result);
+        alert(result);
+    }
+    </script>
+
+<body>
+    <div class="calculator">
+            <input type="text" id="number1" >
+            <select id="operation">
+                <option>+</option>
+                <option>-</option>
+                <option>/</option>
+                <option>*</option>
+                <option>%</option>
+            </select>
+            <input type="text" id="number2" >
+            <input type="submit" value="Try me" onclick="solution()">
+    </div>
+</body>
+</html>
